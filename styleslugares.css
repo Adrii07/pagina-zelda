@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Color de fondo claro */
+}
+
+header {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff; /* Fondo blanco para secciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center; /* Verde para los títulos de sección */
+}
+h1 {
+    text-align: center;
+    color: #2e7d32;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%; /* Asegura que las imágenes sean responsivas */
+    height: 50%;
+    width: 100%;
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4CAF50; /* Verde */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: 1.2em;
+    margin: 0;
+    color: black;
+}
+
+footer h2 {
+    font-size: 1em;
+    margin: 10px 0;
+}
